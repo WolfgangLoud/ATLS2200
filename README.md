@@ -1,4 +1,4 @@
-# ATLS2200
+# ATLS2200.github.io
 
 ## Projects
 ### - HTML
