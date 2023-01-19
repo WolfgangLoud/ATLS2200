@@ -1,4 +1,4 @@
-# ATLS2200.github.io
+# WolfgangLoud.github.io
 
 ## Projects
 ### - HTML
