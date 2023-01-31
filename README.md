@@ -24,7 +24,7 @@
 
 ## Weekly Assignments
 ### - WA1: https://wolfgangloud.github.io/WA/WA1.html
-### - WA2: http://127.0.0.1:5500/WA/WA2.html
+### - WA2: http://127.0.0.1:5500/WA/WA2.html code:https://github.com/WolfgangLoud/WolfgangLoud.github.io/blob/main/WA/WA2.html
 ### - WA3
 ### - WA4
 ### - WA5
