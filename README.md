@@ -8,7 +8,7 @@
 ## In-class Assignments
 ### - ICA1
 ### - ICA2
-### - ICA3: A = http://127.0.0.1:5500/ICA/ica3a.html B = 
+### - ICA3: A = http://127.0.0.1:5500/ICA/ica3a.html B = http://127.0.0.1:5500/ICA/ica3b.html
 ### - ICA4
 ### - ICA5
 ### - ICA6
