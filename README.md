@@ -24,7 +24,7 @@
 
 ## Weekly Assignments
 ### - WA1: https://wolfgangloud.github.io/WA/WA1.html
-### - WA2
+### - WA2: 
 ### - WA3
 ### - WA4
 ### - WA5
