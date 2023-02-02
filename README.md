@@ -8,7 +8,7 @@
 ## In-class Assignments
 ### - ICA1: https://docs.google.com/document/d/1wqRXy4_1-7mxsWfrcaS5xuiXz1PRc5sbMprSt-dQPc4/edit?usp=sharing
 ### - ICA2
-### - ICA3: http://wolfgangloud.github.io/ICA/ica3a.html B = http://wolfgangloud.github.io/ICA/ica3b.html
+### - ICA3: http://wolfgangloud.github.io/ICA/ica3a.html http://wolfgangloud.github.io/ICA/ica3b.html http://wolfgangloud.github.io/CSS/ica3a.css http://wolfgangloud.github.io/CSS/ica3b.css
 ### - ICA4
 ### - ICA5
 ### - ICA6
@@ -24,7 +24,7 @@
 
 ## Weekly Assignments
 ### - [WA1] (https://wolfgangloud.github.io/WA/WA1.html)
-### - [WA2] (http://wolfgangloud.github.io/WA/WA2.html)
+### - [WA2] (http://wolfgangloud.github.io/WA/WA2.html)(http://wolfgangloud.github.io/CSS/wa2.css)
 ### - [WA3] (https://wolfgangloud.github.io/WA/WA3.html)
 ### - WA4
 ### - WA5
