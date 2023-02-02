@@ -8,7 +8,7 @@
 ## In-class Assignments
 ### - ICA1: https://docs.google.com/document/d/1wqRXy4_1-7mxsWfrcaS5xuiXz1PRc5sbMprSt-dQPc4/edit?usp=sharing
 ### - ICA2
-### - ICA3: A = http://127.0.0.1:5500/ICA/ica3a.html B = http://127.0.0.1:5500/ICA/ica3b.html
+### - ICA3: http://wolfgangloud.github.io/ICA/ica3a.html B = http://wolfgangloud.github.io/ICA/ica3b.html
 ### - ICA4
 ### - ICA5
 ### - ICA6
@@ -23,9 +23,9 @@
 ### - ICA15
 
 ## Weekly Assignments
-### - WA1: https://wolfgangloud.github.io/WA/WA1.html
-### - WA2: http://127.0.0.1:5500/WA/WA2.html code:https://github.com/WolfgangLoud/WolfgangLoud.github.io/blob/main/WA/WA2.html
-### - WA3
+### - [WA1] (https://wolfgangloud.github.io/WA/WA1.html)
+### - [WA2] (http://wolfgangloud.github.io/WA/WA2.html)
+### - [WA3] (https://wolfgangloud.github.io/WA/WA3.html)
 ### - WA4
 ### - WA5
 ### - WA6
