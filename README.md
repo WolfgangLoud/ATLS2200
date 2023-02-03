@@ -23,9 +23,9 @@
 ### - ICA15
 
 ## Weekly Assignments
-### - [WA1] (https://wolfgangloud.github.io/WA/WA1.html)
-### - [WA2] (http://wolfgangloud.github.io/WA/WA2.html)
-### - [WA3] (https://wolfgangloud.github.io/WA/WA3.html)
+### - [WA1](https://wolfgangloud.github.io/WA/WA1.html)
+### - [WA2](https://wolfgangloud.github.io/WA/WA2.html)
+### - [WA3](https://wolfgangloud.github.io/WA/WA3.html)
 ### - WA4
 ### - WA5
 ### - WA6
