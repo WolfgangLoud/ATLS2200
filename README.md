@@ -2,6 +2,7 @@
 
 ## Projects
 ### - HTML
+###### - [HTML Midterm One](https://wolfgangloud.github.io/html-midterm(1)/html-midterm/page5.html)
 ### - CSS
 ### - JAVA
 
