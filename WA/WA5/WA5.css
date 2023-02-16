@@ -1,0 +1,36 @@
+*   {box-sizing: border-box;}
+
+  body{
+    background-image: url(denvernuggets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    .scoreboard{
+        position: absolute;
+        width: 60%;
+        height: auto;
+        right:7em;
+        bottom: -15em;
+        float: left;   
+        opacity: .9;
+    }
+
+  /* .scoreboard img{
+        display: block;
+        width: 100%;
+        height:auto;
+        position: relative;
+        background-image: url(scoreboard.jpg);
+        background-position: center bottom;
+   }*/
+   .statboard{
+        position: absolute;
+        width: 60%;
+        height: auto;
+        top: -2em;
+        left: -5em;
+        margin-left: .5em;
+        margin-top: .5em;
+        opacity: .8;
+    }
