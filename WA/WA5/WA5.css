@@ -15,15 +15,7 @@
         float: left;   
         opacity: .9;
     }
-
-  /* .scoreboard img{
-        display: block;
-        width: 100%;
-        height:auto;
-        position: relative;
-        background-image: url(scoreboard.jpg);
-        background-position: center bottom;
-   }*/
+    
    .statboard{
         position: absolute;
         width: 60%;

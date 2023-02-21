@@ -12,7 +12,7 @@
 ### - ICA3: http://wolfgangloud.github.io/ICA/ica3a.html http://wolfgangloud.github.io/ICA/ica3b.html 
 ### - ICA4
 ### - ICA5: http://wolfgangloud.github.io/ICA/ica5/ica5.html
-### - ICA6
+### - ICA6: http://wolfgangloud.github.io/ICA/ica6/ica6-part1.html
 ### - ICA7
 ### - ICA8
 ### - ICA9
