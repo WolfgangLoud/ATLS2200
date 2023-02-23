@@ -29,7 +29,7 @@
 ### - [WA3](https://wolfgangloud.github.io/WA/WA3.html)
 ### - [WA4](https://wolfgangloud.github.io/WA/WA4.html)
 ### - [WA5](https://WolfgangLoud.github.io/WA/WA5/WA5.html)
-### - WA6
+### - [WA6](https://WolfgangLoud.github.io/WA/WA6/index.html))
 ### - WA7
 ### - WA8
 ### - WA9
