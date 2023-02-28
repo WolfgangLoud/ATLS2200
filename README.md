@@ -13,7 +13,7 @@
 ### - ICA4
 ### - ICA5: http://wolfgangloud.github.io/ICA/ica5/ica5.html
 ### - ICA6: http://wolfgangloud.github.io/ICA/ica6/ica6-part1.html
-### - ICA7
+### - ICA7: http://wolfgangloud.github.io/ICA/ica7/ica7.html
 ### - ICA8
 ### - ICA9
 ### - ICA10
@@ -29,7 +29,7 @@
 ### - [WA3](https://wolfgangloud.github.io/WA/WA3.html)
 ### - [WA4](https://wolfgangloud.github.io/WA/WA4.html)
 ### - [WA5](https://WolfgangLoud.github.io/WA/WA5/WA5.html)
-### - [WA6](https://WolfgangLoud.github.io/WA/WA6/index.html))
+### - [WA6](https://WolfgangLoud.github.io/WA/WA6/index.html)
 ### - WA7
 ### - WA8
 ### - WA9
