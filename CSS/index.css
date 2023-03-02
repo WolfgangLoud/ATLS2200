@@ -1,0 +1,122 @@
+body {
+    background-color: #F2A65A;
+    color: #772F1A;
+    margin: 0;
+    font: 1.2em / 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .logoimg{
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+    position: relative;
+    right: 25px;
+
+  }
+  
+  .logo {
+    font-size: 400%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: fit-content;
+  }
+  
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  .scrollimg {
+    left: 0px;
+    margin-left: 0%;
+    float: left;
+    display: block;
+    background-image: url(img2.JPG);
+    background-size: contain;
+    background-repeat: none;
+  }
+ 
+  nav {
+    position: sticky,-webkit-sticky;
+    top:0;
+    background-color: #585123;
+    padding: .5em;
+    display: flex;
+    max-width: cover;
+    overflow: auto;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: fit-content;
+
+  }
+  
+  nav a {
+    color: #EEC170;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+ 
+  .photos {
+    display: grid;
+    grid-gap:0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: min-content;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .no1{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .no2{
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .no3{
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .no4{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .no5{
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+  }
+
+  @media only screen and (max-width: 500px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+    @media only screen and (min-width: 500px){
+        .grid{
+            display: flex;
+        }
+  }
