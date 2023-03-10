@@ -16,6 +16,7 @@ body {
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
+    top:20
   }
   .flex-container{
     display: flex;

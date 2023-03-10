@@ -1,122 +1,266 @@
 body {
-    background-color: #F2A65A;
-    color: #772F1A;
+    background-image:url(background.jpg);
+    
+    background-size: 97em 47em;
     margin: 0;
     font: 1.2em / 1.2;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  .logoimg{
-    width: 200px;
-    height: 200px;
-    opacity: 90%;
-    position: relative;
-    right: 25px;
 
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
+    grid-auto-flow: inherit;
+    grid-gap: 25px;
+    padding: 1em;
   }
-  
+
   .logo {
-    font-size: 400%;
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  .flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    max-width: fit-content;
-  }
-  
-  
-  .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-  }
-  
-  .scrollimg {
-    left: 0px;
-    margin-left: 0%;
-    float: left;
+    grid-row: 1;
+    grid-column: 1;
     display: block;
-    background-image: url(img2.JPG);
-    background-size: contain;
-    background-repeat: none;
+    font-size: 150%;
+    color: #FFB703;
+    position: relative;
+    
+    /*margin: 15px 150px;
+    height: 5em;*/
+    left: 16%;
+    top: 2%;
+    
+    text-shadow: #B5179E;
+    text-decoration-style: double;
   }
- 
-  nav {
-    position: sticky,-webkit-sticky;
-    top:0;
-    background-color: #585123;
-    padding: .5em;
-    display: flex;
-    max-width: cover;
-    overflow: auto;
+  .logo h2{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    color: #023047;
+    font-size: 90%;
   }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    max-width: fit-content;
 
+  .info{
+    grid-row: 1;
+    grid-column: 2;
+    display: block;
+    background-image: linear-gradient(to top, #ffffff38, #8ecae641);
+    /*position: absolute;
+    
+    width: 15em;
+    height: 17em;
+    right:21.5%;
+    top: 1%;*/
+  
+    opacity: .3;
+    padding: 1em 2em;
+  }
+
+  .info:hover{
+    opacity: 1;
   }
   
-  nav a {
-    color: #EEC170;
-    text-decoration: none;
-    padding: .5em 1em;
+
+  .info h3{
+    font-size: 150%;
+    color:#023047;
+    font-weight: lighter;
+  }
+
+
+  .info p{
+    font-size: 115%;
+    color: #ffffff;
   }
   
- 
-  .photos {
+  .hobbies{
+    grid-row: 2;
+    grid-column: 2;
+    display: block;
+    background-image: linear-gradient(to top, #ffffff38, #8ecae641);
+    /*position: absolute;
+    
+    width: 15em;
+    height: 24em;
+    right:1%;
+    top: 42%;*/
+  
+    opacity: .3;
+    padding: 1em 2em;
+  }
+
+  .hobbies:hover{
+    opacity: 1;
+  }
+  
+
+  .hobbies h3{
+    font-size: 150%;
+    color:#023047;
+    font-weight: lighter;
+  }
+
+
+  .hobbies p{
+    font-size: 120%;
+    color: #fcfcfc;
+  }
+
+  .credentials{
+    grid-row: 2;
+    grid-column: 3;
+    display: block;
+    background-image: linear-gradient(to top, #ffffff38, #8ecae641);
+    /*position: absolute;
+    
+    width: 15em;
+    height: 24em;
+    right:21.5%;
+    top: 42%;*/
+  
+    opacity: .3;
+    padding: 1em 2em;
+  }
+
+  .credentials:hover{
+    opacity: 1;
+  }
+  
+
+  .credentials h3{
+    font-size: 150%;
+    color:#023047;
+    font-weight: lighter;
+  }
+
+
+  .credentials ul{
+    font-size: 115%;
+    color: #f6f6f6;
+    left: 0%;
+    list-style: circle;
+  }
+
+  .Usefullinks{
+    grid-row: 1;
+    grid-column: 3;
+    display: block;
+    background-image: linear-gradient(to top, #ffffff38, #8ecae641);
+    /*position: absolute;
+    
+    width: 15em;
+    height: 17em;
+    right:1%;
+    top: 1%;*/
+  
+    opacity: .3;
+    padding: 1em 2em;
+  }
+
+  .Usefullinks:hover{
+    opacity: 1;
+  }
+  
+
+  .Usefullinks h3{
+    text-align: center;
+    font-size: 200%;
+    color:#023047;
+    font-weight: lighter;
+  }
+
+
+  .Usefullinks ul{
+    text-align: left;
+    font-size: 150%;
+    color: #ffffff;
+    list-style: circle;
+  }
+  
+  .grid{
     display: grid;
-    grid-gap:0px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-columns: min-content;
-    list-style:none;
-    margin: 0;
-    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px;
+  
+
+    list-style: none;
   }
 
-  .no1{
+  .pics h3{
+    position: center;
+    font-size: 200%;
+    font-weight: bolder;
+    color:#FFB703;
     grid-row: 1;
     grid-column: 1;
-  }
-  .no2{
-    grid-row: 1;
-    grid-column: 2;
-  }
-  .no3{
-    grid-row: 2;
-    grid-column: 1;
-  }
-  .no4{
-    grid-row: 2;
-    grid-column: 2;
-  }
-  .no5{
-    grid-row: 3;
-    grid-column: 1;
+    text-indent: 38%;
+    font-weight: lighter;
   }
 
-  .feature {
-      width: 200px;
-      float: left;
+  .pics{
+    grid-row: 2;
+    grid-column: 1;
+    
+    width: min-content;
+    /*height: 25em;
+    width: 53.5em;
+    left: 0%;
+    top: 29%;*/
+    background-image: linear-gradient(to top, #ffffff38, #8ecae641);
+    padding: 1em;
+    list-style: none;
+    opacity: .1;
   }
+
+  .picture{
+    width: 15em;
+    height: auto;
+  }
+  .pics:hover{
+    opacity: 1;
+  } 
 
   @media only screen and (max-width: 500px){
-    .grid{
-        display: flex;
-        flex-direction: column;
+    .grid2{
+        grid-template-columns: 1fr;
+    }
+    .logo{
+      grid-row: 1;
+      grid-column: 1;
+    }
+    .info{
+      grid-row:2;
+      grid-column: 1;
+    }
+    .hobbies{
+      grid-row: 3;
+      grid-column: 1;
+    }
+    .credentials{
+      grid-row: 4;
+      grid-column: 1;
+    }
+    .Usefullinks{
+      grid-row: 5;
+      grid-column: 1;
+    }
+    .pics{
+      grid-row: 6;
+      grid-column: 1;
+    }
+    .picture{
+      width: 8em;
+      height:auto;
     }
   }
     @media only screen and (min-width: 500px){
-        .grid{
-            display: flex;
+        .grid2{
+            display: grid;
         }
   }
+
+
+  
+ 
+ 
