@@ -4,7 +4,7 @@
 ### - HTML
 ###### - [HTML Midterm One](https://wolfgangloud.github.io/html-midterm(1)/html-midterm/page5.html)
 ### - CSS
-#####  - [CSS Midterm](https://wolfgangloud.github.io/index.html)
+#####  - [CSS Midterm](https://wolfgangloud.github.io)
 ### - JAVA
 
 ## In-class Assignments
