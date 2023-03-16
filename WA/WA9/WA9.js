@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = "It was -32 fahrenheit outside, so :insertx: went a nice lollygag. When they got to :inserty:, began aggresivly break-dancing for a few moments, then :insertz:. Bob observed in the most astute fashion, and decided to get the hell outta there. Although bob was very slow because his designer gucci belt weighs 300 pounds."
+let storyText = "It was -32 fahrenheit outside, so :insertx: went on a nice lollygag. When they got to :inserty:, they began aggresivly break-dancing for a few moments, then :insertz:. Bob observed in the most astute fashion, and decided to get the hell outta there very slow because his designer gucci belt weighs 300 pounds."
 
 const insertx = ["Willy the Goblin", "Big Daddy", "Father Christmas"]
 
