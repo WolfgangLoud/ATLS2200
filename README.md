@@ -4,7 +4,7 @@
 ### - HTML
 ###### - [HTML Midterm One](https://wolfgangloud.github.io/html-midterm(1)/html-midterm/page5.html)
 ### - CSS
-#####  - [CSS Midterm](https://wolfgangloud.github.io)
+#####  - [CSS Midterm](https://wolfgangloud.github.io/index.html)
 ### - JAVA
 
 ## In-class Assignments
@@ -32,8 +32,8 @@
 ### - [WA5](https://WolfgangLoud.github.io/WA/WA5/WA5.html)
 ### - [WA6](https://WolfgangLoud.github.io/WA/WA6/WA6.html)
 ### - [WA7](https://WolfgangLoud.github.io/WA/WA7/WA7.html)
-### - WA8
-### - WA9
+### - WA8 = CSS MIDTERM
+### - [WA9](https://WolfgangLoud.github.io/WA/WA9/WA9.html)
 ### - WA10
 ### - WA11
 ### - WA12
