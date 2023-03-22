@@ -34,7 +34,7 @@
 ### - [WA7](https://WolfgangLoud.github.io/WA/WA7/WA7.html)
 ### - WA8 = CSS MIDTERM
 ### - [WA9](https://WolfgangLoud.github.io/WA/WA9/WA9.html)
-### - WA10
+### - [WA10](https://WolfgangLoud.github.io/WA/WA10/WA10.html)
 ### - WA11
 ### - WA12
 ### - WA13
