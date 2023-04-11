@@ -19,7 +19,7 @@
 ### - ICA9
 ### - ICA10
 ### - ICA11: http://wolfgangloud.github.io/ICA/ica11/ica11.html
-### - ICA12
+### - ICA12: http://wolfgangloud.github.io/ICA/ica12/ica12.html
 ### - ICA13
 ### - ICA14
 ### - ICA15
@@ -35,7 +35,7 @@
 ### - WA8 = CSS MIDTERM
 ### - [WA9](https://WolfgangLoud.github.io/WA/WA9/WA9.html)
 ### - [WA10](https://WolfgangLoud.github.io/WA/WA10/WA10.html)
-### - WA11
+### - [WA11](https://wolfgangloud.github.io/WA/WA11/WA11.html)
 ### - WA12
 ### - WA13
 ### - WA14
