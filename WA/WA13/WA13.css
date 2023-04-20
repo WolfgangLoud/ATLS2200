@@ -1,0 +1,52 @@
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(backgroundimg2.jpg);
+}
+
+div {
+    background-color: rgba(230, 230, 230, 0.388);
+}
+
+.slidecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider-output {
+  font-size: 24px;
+  margin: 0;
+}
+
+.output {
+  font-size: 18px;
+}
+
+#decrement-button, #increment-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #afafaf;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#decrement-button:hover, #increment-button:hover {
+  background-color: #ff00b3;
+}
