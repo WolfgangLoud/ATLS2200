@@ -2,14 +2,7 @@ function check() {
     console.log('test');
 }
 
-function submit() {
-    alert("your volume is now: " + output.textContent);
-}
 
-function reset() {
-    outputInt = 0;
-    output.textContent = outputInt;
-}
 
 function minus() {
     if (outputInt > 0) {
@@ -99,7 +92,7 @@ incrementButton.addEventListener("mousedown", () => {
         decrement();
       });
 
-      // Stop timer when space bar is pressed
+
          // Stop timer when space bar is pressed
          window.addEventListener("keydown", (event) => {
             if (event.code === "Space") {
