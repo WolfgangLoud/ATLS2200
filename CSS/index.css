@@ -17,6 +17,7 @@ body {
     position: fixed; /* make the navbar fixed at the top of the screen */
     top: 1.5%; /* position the navbar at the top of the screen */
     width: 100%; /* set the width of the navbar to 100% of the screen */
+    z-index: 2;
     
   }
   
@@ -75,7 +76,7 @@ body {
   background-color: #f1f1f15d;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Links inside the dropdown */
@@ -112,21 +113,21 @@ body {
     grid-row: 1;
     grid-column: 1;
     display: block;
-    font-size: 150%;
+    font-size: 175%;
     color: #FFB703;
     position: relative;
-    
-    *margin: 15px 150px;
-    height: 5em;
-    left: 16%;
-    top: 7%;
+    z-index: 0;
+    left: 25%;
+    top: 0%;
+   
     
     text-shadow: #B5179E;
     text-decoration-style: double;
   }
+
   .logo h2{
     position: relative;
-    left: 0%;
+    left: 14%;
     top: 0%;
     color: #023047;
     font-size: 90%;
