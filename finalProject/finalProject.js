@@ -5,12 +5,14 @@ var R = 255, G = 0, B = 255;
 var redSlider, greenSlider, blueSlider;
 var aSliderLabel, bSliderLabel, cSliderLabel, dSliderLabel;
 var redSliderLabel, greenSliderLabel, blueSliderLabel;
+//calls reset button from HTML
 var resetButton = document.getElementById("reset-button");
 var x = 1, y = 1;
-let isPaused = false; // initialize the pause state to false
+//sets the boolean to false and allows draw function to execute when loaded or refreshed
+let isPaused = false; 
 
 function setup() {
-  // Get slider elements from the DOM
+ //fetches sliders from my HTML document
   aSlider = document.getElementById("a-slider");
   bSlider = document.getElementById("b-slider");
   cSlider = document.getElementById("c-slider");
@@ -19,7 +21,7 @@ function setup() {
   greenSlider = document.getElementById("green-slider");
   blueSlider = document.getElementById("blue-slider");
 
-  // Set initial slider values
+  // Set slider values to those of the global variables
   aSlider.value = a;
   bSlider.value = b;
   cSlider.value = c;
@@ -28,7 +30,7 @@ function setup() {
   greenSlider.value = G;
   blueSlider.value = B;
 
-  // Bind slider change events to update functions
+  // implaments slider input into updatedraw() and updatecolor() functions
   aSlider.addEventListener("input", updateDraw);
   bSlider.addEventListener("input", updateDraw);
   cSlider.addEventListener("input", updateDraw);
@@ -37,16 +39,23 @@ function setup() {
   greenSlider.addEventListener("input", updateColors);
   blueSlider.addEventListener("input", updateColors);
 
+  //calls functions
   updateColors();
   updateDraw();
 
+  //creates a canvas to plot points on
   createCanvas(windowWidth, windowHeight);
+  //sets my background as black
   background(0);
+  //sets RGB values = to those of the global variables, and uses the argument of alpha to help create more depth
   stroke(R, G, B, 50);
 }
 
+//draw function plots the points using the de Jong attractor equations
 function draw() {
+    //if statment checks the pause button has been clicked or not from the event listener below
   if (!isPaused){
+    //plots 1,000 points per second, equations for drawing the attractor
     for (var i = 0; i < 1000; i++) {
       var ogX = x;
       var ogY = y;
@@ -59,6 +68,7 @@ function draw() {
   }
 }
 
+//updates the variable values based off of the slider input, and parsefloat converts the string values into floats
 function updateDraw() {
   a = parseFloat(aSlider.value);
   b = parseFloat(bSlider.value);
@@ -66,7 +76,7 @@ function updateDraw() {
   d = parseFloat(dSlider.value);
  
 }
-
+//updates colors baseed off of slider input, parseint converts string values into intiger values
 function updateColors() {
   R = parseInt(redSlider.value);
   G = parseInt(greenSlider.value);
@@ -74,13 +84,16 @@ function updateColors() {
   stroke(R, G, B, 50);
 }
 
+//reset button clears background by making it black
 resetButton.addEventListener("click", function() {
 background(0);
 });
 
+//fetches button from html
 const pauseResumeBtn = document.getElementById("pause-resume-button");
+//adds functionality with a click event listener, which check the boolean to see if isPaused is ture or false
 pauseResumeBtn.addEventListener("click", function() {
-  isPaused = !isPaused; // toggle the pause state
+  isPaused = !isPaused; //switches between being paused and resumed
   if (isPaused) {
     pauseResumeBtn.textContent = "Resume"; // update the button text
   } else {
