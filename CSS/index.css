@@ -282,6 +282,10 @@ body {
   } 
 
   @media only screen and (max-width: 500px){
+    .navbar{
+      position: relative;
+      gap: auto;
+    }
     .body{
       background-repeat: repeat;
     }
